@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upper Delaware Fishing Alert</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>🎣 Upper Delaware Fishing Alert</h1>
+    <div id="conditions">
+      <div id="river-conditions">
+        <h2>Current River Conditions</h2>
+        <p id="flow">Loading flow data...</p>
+        <p id="temp">Loading temperature...</p>
+        <p id="level">Loading water level...</p>
+      </div>
+
+      <div id="weather-conditions">
+        <h2>Current Weather</h2>
+        <p id="weather">Loading weather data...</p>
+      </div>
+
+      <div id="fly-patterns">
+        <h2>Suggested Fly Patterns</h2>
+        <ul id="flies">
+          <li>Loading recommendations...</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="alerts"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
